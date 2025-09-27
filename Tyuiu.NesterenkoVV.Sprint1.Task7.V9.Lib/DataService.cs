@@ -5,7 +5,7 @@ namespace Tyuiu.NesterenkoVV.Sprint1.Task7.V9.Lib
     {
         public double Calculate(double x, double y)
         {
-            return double.Round((Math.Pow(Math.E, x) - (double)(Math.Pow(x, 2) + Math.Cos(Math.Pow(x, 3)) + 12 * x * y - 3 * Math.Pow(x, 3)) / (Math.Cos(Math.Pow(x, 3) + 3) + 18 * y - 1)), 3);
+            return double.Round((Math.Pow(Math.E, x) - (double)(Math.Pow(y, 2) + Math.Cos(Math.Pow(x, 3)) + 12 * x * y - 3 * Math.Pow(x, 2)) / (Math.Cos(Math.Pow(x, 3) + 3) + 18 * y - 1)), 3);
         }
     }
 }
